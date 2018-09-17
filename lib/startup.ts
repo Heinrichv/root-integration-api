@@ -1,5 +1,6 @@
 import 'reflect-metadata';
 import * as bodyParser from 'body-parser';
+import * as swagger from 'swagger-express';
 import * as express from 'express';
 import { Application } from 'express';
 

@@ -2,7 +2,7 @@ import 'reflect-metadata';
 import { useExpressServer } from 'routing-controllers';
 import expressApp from './startup';
 
-const port = 4040;
+const port = 3000;
 
 useExpressServer(expressApp, {
   routePrefix: '/api',
